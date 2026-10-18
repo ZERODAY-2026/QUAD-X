@@ -89,7 +89,12 @@ The application keeps uploaded PDF bytes, extracted text, and report state in se
 OCR can make mistakes, and PDF extraction may not preserve tables or complex layouts accurately. Model findings and severity ratings may be incomplete or incorrect. Quote verification confirms wording in extracted text; it does not confirm the model’s interpretation. The project has not undergone a formal privacy or security audit.
 
 **Current status:** The browser interface, PDF upload, text extraction with OCR fallback, local model analysis, long-document processing, quote and page checks, source highlighting, follow-up prompts, and session reset are implemented. QUAD-X provides preliminary legal document triage and does not replace advice from a qualified legal professional.
-```
 
-## Front end prototype
-<img width="1600" height="869" alt="WhatsApp Image 2026-10-18 at 5 12 55 PM" src="https://github.com/user-attachments/assets/d82dfced-b24d-4acf-a23b-ca32776fb5ed" />
+## Frontend prototype
+<img width="1600" height="869" alt="WhatsApp Image 2026-10-18 at 5 12 55 PM" src="https://github.com/user-attachments/assets/b06d329f-2f39-458d-93dd-c1ac61a9697e" />
+
+## Final frontend
+<img width="1600" height="808" alt="WhatsApp Image 2026-10-18 at 5 14 26 PM" src="https://github.com/user-attachments/assets/eb94d862-b70d-4675-ba63-9a94d0a051eb" />
+
+
+```
