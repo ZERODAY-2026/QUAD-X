@@ -52,5 +52,5 @@ Scanned PDFs require OCR, which is not included. PDF extraction may not preserve
 
 **Current status:** PDF extraction, legal analysis, local inference, long-document chunking, quotation and page checks, PDF highlighting, and follow-up prompts are implemented. The system provides preliminary legal document triage and does not replace professional legal advice.
 
-##Front end prototype
+## Front end prototype
 <img width="1600" height="869" alt="WhatsApp Image 2026-10-18 at 5 12 55 PM" src="https://github.com/user-attachments/assets/d82dfced-b24d-4acf-a23b-ca32776fb5ed" />
