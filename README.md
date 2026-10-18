@@ -1,4 +1,3 @@
-```markdown
 # QUAD-X
 
 ## Problem Statement — Agentic AI: Private Legal Document Triage Agent
