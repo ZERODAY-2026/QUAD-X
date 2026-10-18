@@ -38,3 +38,7 @@ flowchart TD
 The project is designed to process documents locally, reducing the need to send sensitive legal information to external AI services. Network activity and data handling must still be tested to validate the privacy guarantees.
 
 **Current status:** PDF extraction and legal analysis have been implemented as separate scripts. Automatically connecting PDF extraction to the analysis pipeline, validating source quotations, and testing privacy are remaining tasks. The system provides preliminary legal document triage and does not replace professional legal advice.
+
+
+![Private Legal Triage Agent](image_bd2dbc.jpg)
+```[cite: 1]
