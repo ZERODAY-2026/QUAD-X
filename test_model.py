@@ -1,3 +1,4 @@
+# This was our test before implementing our pipeline, where we hard coded the file with questions instead of directly accepting the query
 
 import ollama
 
