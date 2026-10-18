@@ -51,12 +51,45 @@ flowchart TD
 - **Ollama:** Model runtime.
 - **Gemma:** Legal document triage.
 
+### Requirements
+
+The following Python packages and versions were used:
+
+| Package | Version |
+|---|---:|
+| `annotated-doc` | `0.0.5` |
+| `annotated-types` | `0.8.0` |
+| `anyio` | `4.15.1` |
+| `certifi` | `2026.7.22` |
+| `click` | `8.5.0` |
+| `fastapi` | `0.144.0` |
+| `h11` | `0.16.0` |
+| `httpcore` | `1.0.9` |
+| `httpx` | `0.28.1` |
+| `idna` | `3.20` |
+| `ollama` | `0.6.3` |
+| `opentelemetry-api` | `1.45.1` |
+| `pydantic` | `2.14.1` |
+| `pydantic-core` | `2.50.1` |
+| `PyMuPDF` | `1.28.2` |
+| `python-multipart` | `0.0.32` |
+| `starlette` | `1.8.0` |
+| `typing-inspection` | `0.4.4` |
+| `typing-extensions` | `4.16.0` |
+| `uvicorn` | `0.54.0` |
+
+Additional software:
+
+- **Ollama** must be installed and running.
+- **Gemma** must be available in Ollama. The default model is `gemma4:e4b`.
+- **Tesseract OCR** is optional and must be installed for OCR of scanned pages.
+
 ### Run Locally
 
-Install the Python packages:
+Install the Python packages at the listed versions:
 
 ```bash
-pip install fastapi uvicorn python-multipart pymupdf ollama
+pip install annotated-doc==0.0.5 annotated-types==0.8.0 anyio==4.15.1 certifi==2026.7.22 click==8.5.0 fastapi==0.144.0 h11==0.16.0 httpcore==1.0.9 httpx==0.28.1 idna==3.20 ollama==0.6.3 opentelemetry-api==1.45.1 pydantic==2.14.1 pydantic_core==2.50.1 pymupdf==1.28.2 python-multipart==0.0.32 starlette==1.8.0 typing-inspection==0.4.4 typing_extensions==4.16.0 uvicorn==0.54.0
 ```
 
 Install Ollama and download the configured model:
