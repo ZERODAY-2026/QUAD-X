@@ -1,3 +1,5 @@
+# This was our basic frontend which we used to test our code
+
 """Streamlit front end for the Private Legal Triage Agent."""
 
 import hashlib
